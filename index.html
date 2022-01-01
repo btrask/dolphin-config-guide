@@ -1,0 +1,35 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Dolphin Config Guide 1.0</title>
+<h1>Dolphin Config Guide 1.0</h1>
+
+<p>(By p.i., with screenshots by Four Sword)</p>
+
+<p>First, make sure you have the current netplay build. <a href="https://www.mediafire.com/file/bfsebj20srv9rh2/Brawl_netpl
+ay_new_build_v1.0.zip/file">https://www.mediafire.com/file/bfsebj20srv9rh2/Brawl_netplay_new_build_v1.0.zip/file</a> for Windows. <a href="https://www.mediafire.com/file/6otwrm7yql24rd1/dolphin-2-15-mac.zip/file">https://www.mediafire.com/file/6otwrm7yql24rd1/dolphin-2-15-mac.zip/file</a> for Mac.</p>
+
+<p>Many options in Dolphin must be specified exactly in order for netplay to work and to minimize desyncs.</p>
+
+<p><b>Desync</b>: when different players see different things happening in the game.</p>
+
+<div><img src="dolphin-cfg-01.png"><p>Right click Brawl in the Dolphin game list and go to Properties. Make sure the "Global Brawl Netplay Settings" and "Disable Challenger Approaches" codes are on. (Note: You won't have the C-stick codes by default. If you add any extra codes, they must be disabled for netplay.)</p></div>
+<div><img src="dolphin-cfg-02.png"></div>
+<div><img src="dolphin-cfg-03.png"></div>
+<div><img src="dolphin-cfg-04.png"><p>(Note: Most graphics settings won't cause desyncs. However it's important that your computer is able to consistently hit 60 fps. If necessary, make sure the internal resolution is "1x" and the various filtering options are off.)</p></div>
+<div><img src="dolphin-cfg-05.png"></div>
+<div><img src="dolphin-cfg-06.png"></div>
+<div><img src="dolphin-cfg-07.png"></div>
+<div><img src="dolphin-cfg-08.png"></div>
+<div><img src="dolphin-cfg-09.png"></div>
+<div><img src="dolphin-cfg-10.png"></div>
+<div><img src="dolphin-cfg-11.png"></div>
+
+
+
+
+<div>
+Netplay settings (no screenshot)
+<p><b>Minimum buffer</b> must be set to approximately ping (in ms) / 8. Common values range from 8 (very good) to 20 (transatlantic lag).</p>
+<p><b>Spectating</b> can be done by having a third person join the game, and clicking "Assign Controller Ports" to remove the spectator's port (this will prevent the spectator from causing lag for the other players). Spectators should not host.</p>
+<p><b>Recording replays</b> can be done by checking the "Record input" box. These files can only be played back in Dolphin, but they are very small and recording them has no performance impact.<p>
+</div>
